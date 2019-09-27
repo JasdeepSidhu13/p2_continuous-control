@@ -112,7 +112,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 - `checkpoint_critic.pth`: saved model weights for the critic
 - `Continuous_Control.ipynb`: explore the unity environment
 - `Continuous_Control_1agent.ipynb`: notebook containing the solution
-- `Crawler.ipynb`: notebook containing the code for trainign the four legged creature problem (see below)
+- `Crawler.ipynb`: notebook containing the code for training the four legged creature problem (see below)
 
 ### Instructions
 
