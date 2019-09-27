@@ -31,6 +31,10 @@ Note that your project submission need only solve one of the two versions of the
 #### Option 1: Solve the First Version
 
 The task is episodic, and in order to solve the environment,  your agent must get an average score of +30 over 100 consecutive episodes.
+### Results 
+The problem was solved using DDPG algorithm where the average reward of +30 over atleast 100 episodes was achieved in 204 episodes
+### Results
+![DDPG-scores](https://github.com/JasdeepSidhu13/p2_continuous-control/blob/master/images/p2_cc.png)
 
 #### Option 2: Solve the Second Version
 
