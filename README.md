@@ -103,9 +103,20 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
 
+```
+### Description
+
+- `ddpg_agent.py`: code for the agent used in the environment
+- `model.py`: code containing the DDPG Network used as the function approximator by the agent
+- `checkpoint_actor.pth`: saved model weights for the actor 
+- `checkpoint_critic.pth`: saved model weights for the critic
+- `Continuous_Control.ipynb`: explore the unity environment
+- `Continuous_Control_1agent.ipynb`: notebook containing the solution
+- `Crawler.ipynb`: notebook containing the code for trainign the four legged creature problem (see below)
+
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent! Please see 'Continuous_Control_1agent.ipynb` for a trained agent.
+Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent! Please see `Continuous_Control_1agent.ipynb` for a trained agent.
 
 ### (Optional) Challenge: Crawler Environment
 
