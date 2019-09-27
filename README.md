@@ -43,7 +43,9 @@ The barrier for solving the second version of the environment is slightly differ
 - This yields an **average score** for each episode (where the average is over all 20 agents).
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
-## Dependencies
+
+
+### Dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -103,7 +105,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
 
-```
+
 ### Description
 
 - `ddpg_agent.py`: code for the agent used in the environment
